@@ -1,0 +1,32 @@
+{
+    "name": "Temperature Log Both Sensor",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
+        "ds18b20": "github:DFRobot/pxt-ds18b20#v0.1.0",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.26",
+        "tag": "v6.0.26",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/0ba979dd8a8f411c37c20b5fd4faba5b43ef51aa",
+        "target": "6.0.26",
+        "pxt": "9.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
